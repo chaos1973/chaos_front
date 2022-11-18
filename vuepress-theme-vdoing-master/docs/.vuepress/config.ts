@@ -222,7 +222,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'http://rliq6ygg1.bkt.clouddn.com/data/micro_head.png',
+      //avatar: 'https://photos.app.goo.gl/vmcDaujwxDH3zWvJ6',
+      avatar: 'https://lh3.googleusercontent.com/pw/AL9nZEVguJ-N7NLlMuZeHkva7A6dl7DDbLKx92vMS8b_3JVTXr1vViThrtnhdMSI4YxQNJEq0KYTUw0UXyOai_8CPg82qMDDfI3iaMbKM1ihlVQp_1xgGIPhUVuCNaaHc4aPK_odN_YdRnSwStaLEIprkc1AYjZ5IfOopK7vgDECcoojKdjxj1BwxXEMswQtHZE1aS0YOKtuR_O30vAeGYGkT7_BAnrTAmFpZ6L1DO0B8TVdBh587Dw3YaAw6NuMPcEWccvGOelIEhFkXGKM8gBtgL72-fSoJnV9bIPZhd1jSsBgJxgMrlFJMHiv8c67-wUIbDn0lg8IT8IIP1zj8p0OFfiENgfWTBqeEec_AXE_oUVAEKhL6U_rdfE-dFDGHwjjLvZxKvSjv0lL5ZAYYhqzNaAXw2_L3HN0Gyr_GMGONyMgmXhhTyoTz4gvu1cltE0WAdTo1RVR5BP0h-O_K4pa0sNp7jTgGFhGHTP2aJdex2VRb6JDJyrDoc-xQSlxMrTBj4faW6-tfM_GLoiW-_GXYJV3OtndTjsjX_WB8lpMoZRXLT3bGis3t13Kbtker_PoNGRwJ0mDN5CCG6cBiUJl2WJ-D_ocZPJmxiQeV1zOjqz_5Fz7dh4jLRJG32JSffTbEXYMPFaftKbgQE8U-95XbvAuSxa50sxdkXRft7iUSxP26RuOHLC8b9MDYOJF7lmAep_5Aas4ygYpu5gKSF_EbJ_oRTNmbyHLs2cYAEAz0S4ayTPafWirJ8bli-P7vplKJy8wU3C5gIGSaXzJRHownK5QBe09b1aCU3br4htPwbracVgi2LyeBYdFLx-6Pbz70DYs7_ne6Az-cdfViURSG4hQCLZSZ-pir4lhIYkIRocOKYwn2S9ZGkriJ86vAcOBmb5NNbkdZxbsq1x9nAGBFSwpzp1dzydQhKgxshrwE--7CJuY1SPbgGf-DAUi-y_ovEi6ElxCq5hu=s300-no?authuser=0',
       name: '~chao',
       slogan: '永远菜鸟,不断努力~',
     },
@@ -279,7 +280,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
-    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    ['meta', { name: 'theme-color', content: '#11a8cd' }],
+    ['meta', { name: "referrer" ,content:"no-referrer" }],
+    
+    // 移动浏览器主题颜色
     // [
     //   'script',
     //   {
