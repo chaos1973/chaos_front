@@ -38,7 +38,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'vue',
             items: [
-              { text: 'vue路由', link: ' /pages/0b717a/' },
+              { text: 'vue路由', link: '/pages/0b717a/' },
             ],
           },
           {
