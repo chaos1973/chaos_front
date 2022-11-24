@@ -82,7 +82,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'redis', link: '/pages/0a83b083bdf257cb/' },
           { text: 'nginx', link: '/pages/0a83b083bdf257cb/' },
           { text: 'tomcat', link: '/pages/dcd5c4/' },
-          { text: 'springmvc', link: '/pages/436747/' }
+          { text: 'springmvc', link: '/pages/436747/' },
+          { text: 'jvm', link: '/pages/9d28de/' }
         ],
       },
       {
