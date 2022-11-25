@@ -19,7 +19,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Chao's blog",
+      title: "Chao's Blog",
       description: '技术博客,专注各种技术学习与总结。前端、后端、数据库、运维等技术文章。',
     }
   },
@@ -80,7 +80,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'git', link: '/pages/f6a255/' },
           { text: 'maven', link: '/pages/877b76/' },
           { text: 'redis', link: '/pages/0a83b083bdf257cb/' },
-          { text: 'nginx', link: '/pages/0a83b083bdf257cb/' },
+          { text: 'nginx', link: '/pages/affc9b/' },
           { text: 'tomcat', link: '/pages/dcd5c4/' },
           { text: 'springmvc', link: '/pages/436747/' },
           { text: 'jvm', link: '/pages/9d28de/' }
@@ -223,8 +223,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      //avatar: 'https://photos.app.goo.gl/vmcDaujwxDH3zWvJ6',
-      avatar: 'https://lh3.googleusercontent.com/pw/AL9nZEVguJ-N7NLlMuZeHkva7A6dl7DDbLKx92vMS8b_3JVTXr1vViThrtnhdMSI4YxQNJEq0KYTUw0UXyOai_8CPg82qMDDfI3iaMbKM1ihlVQp_1xgGIPhUVuCNaaHc4aPK_odN_YdRnSwStaLEIprkc1AYjZ5IfOopK7vgDECcoojKdjxj1BwxXEMswQtHZE1aS0YOKtuR_O30vAeGYGkT7_BAnrTAmFpZ6L1DO0B8TVdBh587Dw3YaAw6NuMPcEWccvGOelIEhFkXGKM8gBtgL72-fSoJnV9bIPZhd1jSsBgJxgMrlFJMHiv8c67-wUIbDn0lg8IT8IIP1zj8p0OFfiENgfWTBqeEec_AXE_oUVAEKhL6U_rdfE-dFDGHwjjLvZxKvSjv0lL5ZAYYhqzNaAXw2_L3HN0Gyr_GMGONyMgmXhhTyoTz4gvu1cltE0WAdTo1RVR5BP0h-O_K4pa0sNp7jTgGFhGHTP2aJdex2VRb6JDJyrDoc-xQSlxMrTBj4faW6-tfM_GLoiW-_GXYJV3OtndTjsjX_WB8lpMoZRXLT3bGis3t13Kbtker_PoNGRwJ0mDN5CCG6cBiUJl2WJ-D_ocZPJmxiQeV1zOjqz_5Fz7dh4jLRJG32JSffTbEXYMPFaftKbgQE8U-95XbvAuSxa50sxdkXRft7iUSxP26RuOHLC8b9MDYOJF7lmAep_5Aas4ygYpu5gKSF_EbJ_oRTNmbyHLs2cYAEAz0S4ayTPafWirJ8bli-P7vplKJy8wU3C5gIGSaXzJRHownK5QBe09b1aCU3br4htPwbracVgi2LyeBYdFLx-6Pbz70DYs7_ne6Az-cdfViURSG4hQCLZSZ-pir4lhIYkIRocOKYwn2S9ZGkriJ86vAcOBmb5NNbkdZxbsq1x9nAGBFSwpzp1dzydQhKgxshrwE--7CJuY1SPbgGf-DAUi-y_ovEi6ElxCq5hu=s300-no?authuser=0',
+      avatar: '/chaos_front/img/micro_head.png',
+      //avatar: 'https://lh3.googleusercontent.com/pw/AL9nZEVguJ-N7NLlMuZeHkva7A6dl7DDbLKx92vMS8b_3JVTXr1vViThrtnhdMSI4YxQNJEq0KYTUw0UXyOai_8CPg82qMDDfI3iaMbKM1ihlVQp_1xgGIPhUVuCNaaHc4aPK_odN_YdRnSwStaLEIprkc1AYjZ5IfOopK7vgDECcoojKdjxj1BwxXEMswQtHZE1aS0YOKtuR_O30vAeGYGkT7_BAnrTAmFpZ6L1DO0B8TVdBh587Dw3YaAw6NuMPcEWccvGOelIEhFkXGKM8gBtgL72-fSoJnV9bIPZhd1jSsBgJxgMrlFJMHiv8c67-wUIbDn0lg8IT8IIP1zj8p0OFfiENgfWTBqeEec_AXE_oUVAEKhL6U_rdfE-dFDGHwjjLvZxKvSjv0lL5ZAYYhqzNaAXw2_L3HN0Gyr_GMGONyMgmXhhTyoTz4gvu1cltE0WAdTo1RVR5BP0h-O_K4pa0sNp7jTgGFhGHTP2aJdex2VRb6JDJyrDoc-xQSlxMrTBj4faW6-tfM_GLoiW-_GXYJV3OtndTjsjX_WB8lpMoZRXLT3bGis3t13Kbtker_PoNGRwJ0mDN5CCG6cBiUJl2WJ-D_ocZPJmxiQeV1zOjqz_5Fz7dh4jLRJG32JSffTbEXYMPFaftKbgQE8U-95XbvAuSxa50sxdkXRft7iUSxP26RuOHLC8b9MDYOJF7lmAep_5Aas4ygYpu5gKSF_EbJ_oRTNmbyHLs2cYAEAz0S4ayTPafWirJ8bli-P7vplKJy8wU3C5gIGSaXzJRHownK5QBe09b1aCU3br4htPwbracVgi2LyeBYdFLx-6Pbz70DYs7_ne6Az-cdfViURSG4hQCLZSZ-pir4lhIYkIRocOKYwn2S9ZGkriJ86vAcOBmb5NNbkdZxbsq1x9nAGBFSwpzp1dzydQhKgxshrwE--7CJuY1SPbgGf-DAUi-y_ovEi6ElxCq5hu=s300-no?authuser=0',
       name: '~chao',
       slogan: '永远菜鸟,不断努力~',
     },
@@ -272,7 +272,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹//
     [
       'meta',
       {
