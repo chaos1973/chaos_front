@@ -79,7 +79,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'springcloud', link: '/pages/1dbe25/' },
           { text: 'git', link: '/pages/f6a255/' },
           { text: 'maven', link: '/pages/877b76/' },
-          { text: 'redis', link: '/pages/0a83b083bdf257cb/' },
+          //{ text: 'redis', link: '/pages/0a83b083bdf257cb/' },
           { text: 'nginx', link: '/pages/affc9b/' },
           { text: 'tomcat', link: '/pages/dcd5c4/' },
           { text: 'springmvc', link: '/pages/436747/' },
@@ -91,7 +91,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/database/',
         items: [
           { text: '图数据库', link: '/pages/0a3455/' },
-          //{ text: 'mysql数据库', link: '/pages/4c778760be26d8b3/' },
+          { text: 'mysql数据库', link: '/pages/612469/' },
+          { text: 'redis数据库', link: '/pages/1528fa/' },
         ],
       },
       {
