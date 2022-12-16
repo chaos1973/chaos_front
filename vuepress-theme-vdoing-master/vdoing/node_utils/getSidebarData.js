@@ -42,7 +42,7 @@ module.exports = createSidebarData;
 /**
  * 读取指定目录下的文件绝对路径
  * @param {String} root 指定的目录
-*/
+ */
 function readTocs(root) {
   const result = [];
   const files = fs.readdirSync(root); // 读取目录,返回数组，成员是root底下所有的目录名 (包含文件夹和文件)
@@ -79,7 +79,7 @@ function mapTocToPostSidebar(root) {
     }
 
     let [title, type] = filename.split('.');
-    if (type !== 'md'||type !== 'html') {
+    if (type !== 'md') {
       log(chalk.yellow(`warning: 该文件 "${file}" 非.md格式文件，不支持该文件类型`))
       return;
     }
@@ -153,7 +153,7 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
         children: mapTocToSidebar(file, collapsable, prefix + filename + '/').sidebar // 子栏路径添加前缀
       }
     } else { // 是文件
-      if (type !== 'md'||type !== 'html') {
+      if (type !== 'md') {
         log(chalk.yellow(`warning: 该文件 "${file}" 非.md格式文件，不支持该文件类型`))
         return;
       }

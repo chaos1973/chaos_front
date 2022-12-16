@@ -1,12 +1,12 @@
 export const hashRE = /#.*$/
-export const extRE = /\.(md|html|doc|docx)$/
+export const extRE = /\.(md|html)$/
 export const endingSlashRE = /\/$/
 export const outboundRE = /^[a-z]+:/i
 
 export function normalize(path) {
   return decodeURI(path)
-    .replace(hashRE, '')
-    .replace(extRE, '')
+      .replace(hashRE, '')
+      .replace(extRE, '')
 }
 
 export function getHash(path) {
@@ -126,8 +126,8 @@ export function resolveSidebarItems(page, regularPath, site, localePath) {
   const { pages, themeConfig } = site
 
   const localeConfig = localePath && themeConfig.locales
-    ? themeConfig.locales[localePath] || themeConfig
-    : themeConfig
+      ? themeConfig.locales[localePath] || themeConfig
+      : themeConfig
 
   const pageSidebarConfig = page.frontmatter.sidebar || localeConfig.sidebar || themeConfig.sidebar
   if (pageSidebarConfig === 'auto') {
@@ -143,8 +143,8 @@ export function resolveSidebarItems(page, regularPath, site, localePath) {
       return resolveHeaders(page)
     }
     return config
-      ? config.map(item => resolveItem(item, pages, base))
-      : []
+        ? config.map(item => resolveItem(item, pages, base))
+        : []
   }
 }
 
@@ -214,8 +214,8 @@ export function resolveMatchingConfig(regularPath, config) {
 
 function ensureEndingSlash(path) {
   return /(\.html|\/)$/.test(path)
-    ? path
-    : path + '/'
+      ? path
+      : path + '/'
 }
 
 function resolveItem(item, pages, base, groupDepth = 1) {
@@ -228,7 +228,7 @@ function resolveItem(item, pages, base, groupDepth = 1) {
   } else {
     if (groupDepth > 3) {
       console.error(
-        '[vuepress] detected a too deep nested sidebar group.'
+          '[vuepress] detected a too deep nested sidebar group.'
       )
     }
     const children = item.children || []
