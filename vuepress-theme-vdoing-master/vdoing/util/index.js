@@ -1,5 +1,5 @@
 export const hashRE = /#.*$/
-export const extRE = /\.(md|html)$/
+export const extRE = /\.(md|html|doc|docx)$/
 export const endingSlashRE = /\/$/
 export const outboundRE = /^[a-z]+:/i
 

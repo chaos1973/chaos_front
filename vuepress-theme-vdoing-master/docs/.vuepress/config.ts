@@ -91,7 +91,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/database/',
         items: [
           { text: '图数据库', link: '/pages/0a3455/' },
-          { text: 'mysql数据库', link: '/pages/612469/' },
+          { text: 'mysql数据库', link: '/pages/7d831e/' },
           { text: 'redis数据库', link: '/pages/1528fa/' },
         ],
       },

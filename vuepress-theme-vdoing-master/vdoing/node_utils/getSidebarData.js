@@ -79,7 +79,7 @@ function mapTocToPostSidebar(root) {
     }
 
     let [title, type] = filename.split('.');
-    if (type !== 'md') {
+    if (type !== 'md'||type !== 'html') {
       log(chalk.yellow(`warning: 该文件 "${file}" 非.md格式文件，不支持该文件类型`))
       return;
     }
@@ -153,7 +153,7 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
         children: mapTocToSidebar(file, collapsable, prefix + filename + '/').sidebar // 子栏路径添加前缀
       }
     } else { // 是文件
-      if (type !== 'md') {
+      if (type !== 'md'||type !== 'html') {
         log(chalk.yellow(`warning: 该文件 "${file}" 非.md格式文件，不支持该文件类型`))
         return;
       }
