@@ -84,7 +84,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'nginx', link: '/pages/affc9b/' },
           { text: 'tomcat', link: '/pages/dcd5c4/' },
           { text: 'springmvc', link: '/pages/436747/' },
-          { text: 'jvm', link: '/pages/74c077/' }
+          { text: 'jvm', link: '/pages/ce613a/' }
         ],
       },
       {
