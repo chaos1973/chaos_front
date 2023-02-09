@@ -165,7 +165,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '面试',
         link: '/interview/',
         items: [
-          { text: 'java', link: '/pages/e51c1d' },
+          { text: 'java', link: '/pages/9430be/' },
           { text: 'mybatis', link: '/pages/4a4b44/' },
         ],
       },
