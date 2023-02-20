@@ -169,6 +169,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'mybatis', link: '/pages/4a4b44/' },
         ],
       },
+      {
+        text: '组件技术',
+        link: '/component/',
+        items: [
+          { text: 'xxl-job', link: '/pages/024f8e/' },
+          { text: 'mybatis', link: '/pages/4a4b44/' },
+        ],
+      },
     ],
     sidebarDepth: 4, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
