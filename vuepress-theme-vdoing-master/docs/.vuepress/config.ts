@@ -100,6 +100,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'Docker&K8s',
         link: '/docker/',
         items: [
+          { text: 'windows下docker安装nginx并挂载目录', link: '/pages/c12f09/' },
           //{ text: '图数据库', link: '/pages/0a3455/' },
           //{ text: 'mysql数据库', link: '/pages/4c778760be26d8b3/' },
         ],
